@@ -1,0 +1,512 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{scroll-behavior: smooth;}
+
+body{
+    height: 600vh;
+    font-family: 'Roboto', sans-serif;
+    
+    background-color: white;
+}
+.navbar{
+    background-color: #98d4ebc7;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    
+    
+}
+ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+    padding: 22px 0px; 
+    list-style-type: none;
+     
+    
+}
+
+li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    padding: 20px 16px;
+    margin: 30px;
+    border-radius: 20px;
+    
+}
+
+li a:hover{
+    background-color: #cecdcd;
+    color: black;
+    box-shadow: rgb(134, 133, 133) 1px 1px 10px;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 24px;
+    color: white;
+    padding: 0px 20px;
+    margin-left: -390px;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px darkblue;
+    text-decoration: overline underline;
+
+}
+
+.top{
+    height: 50vw;
+    width: 100%;
+    /* background-color: rgb(223, 218, 218); */
+    padding: 80px 0px;
+}
+
+.img1{
+    background-image: url(/architrcture/modern-architecture-min.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 650px;
+    margin: 45px 130px;
+    z-index: 1;
+    position: absolute;
+}
+.text-box{
+    background-color: rgb(206, 205, 205);
+    color: black;
+    box-shadow: 0px 0px 10px rgb(94, 93, 93);
+    text-align:left;
+    padding: 20px 20px;
+    height: 400px;
+    width: 550px;
+    margin: 112px 715px;
+    position: relative;
+    z-index: 2;
+}
+.text-box h1{
+    font-weight:lighter;
+    font-size: 65px;
+
+}
+
+.block{
+    background-color: #98d4eb;
+    height: 1100px;
+    width: 600px;
+    position: relative;
+    z-index: 0z;
+    margin: -383px 400px;
+}
+.mini1{
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    background-image: url(/architrcture/grills.jpg);
+    background-size: cover;
+    margin: -413px 584px 0px 584px ;
+    z-index: 1;
+    position: relative;
+}
+
+.text-box2{
+    height: 650px;
+    width: 400px;
+    background-color: rgb(206, 205, 205);
+    color: black;
+    box-shadow: 0px 0px 10px rgb(94, 93, 93);
+    text-align:left;
+    padding: 20px 20px;
+    position: relative;
+    z-index: 1;
+    margin: -807px 94px;
+}
+.text-box2 h1{
+    font-weight:lighter;
+    font-size: 65px;
+    padding: 30px 30px;
+
+
+}
+.img2{
+    width: 844px;
+    height: 600px;
+    background-color: black;
+    position: relative;
+    margin: 285px 500px;
+    background-image: url(/architrcture/black-mall.webp);
+    background-size: cover;
+}
+.mid {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -200px;
+    background-color: white;
+}
+
+#mini-img1{
+    height: 300px;
+    width: 300px;
+    background-image: url(/architrcture/black-skyscrapper.jpg);
+    background-size: cover;
+    display: flex;
+    /* margin: 30px 108px; */
+    margin-left: 64px;
+    box-shadow: 30px 0px 0px #98d4eb;
+    z-index: 1;
+    border-radius: 50%;
+    
+}
+
+
+#mini-img2{
+    height: 300px;
+    width: 300px;
+    background-image: url(/architrcture/black-elevator.webp);
+    background-size: cover;
+    display: flex;
+    /* margin: 30px 94px; */
+    box-shadow: -30px 0px 0px #98d4eb;
+    z-index: 1;
+    border-radius: 50%;
+    
+}
+
+.mini-img3{
+    height: 300px;
+    width: 300px;
+    background-image: url(/architrcture/black-\ stairs.jpg);
+    background-size: cover;
+    display: flex;
+    margin: -51px 150px;
+    box-shadow: -25px 25px 0px #98d4eb;
+    z-index: 1;
+    border-radius: 50%;
+
+}
+.mini-block {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: -416px;
+    margin-bottom: 48px;
+    background-color: #98d4eb;
+}
+.textarea{
+    height: 250px;
+    width: 400px;
+    margin: 35px 153px;
+    background-color: white;
+    text-align: center;
+}
+
+.textarea h2{
+    font-weight: lighter;
+    margin-top: 100px;
+    font-size: 26px;
+}
+
+.mid2{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    flex-direction: row;
+    margin:-90px 0px;
+    padding-bottom: 30px;
+}
+
+.text-mini1,.text-mini2{
+    height: 130px;
+    width: 400px;
+    margin: 50px 35px;
+    background-color: white;
+    text-align: center;
+    font-weight: lighter;
+
+}
+.text-mini1 .text-mini2 h1{
+    font-weight: lighter;
+}
+
+
+.services{
+    background-color: rgba(233, 242, 247, 0.842);
+    height: 750px;
+    display: flex;
+    margin-top: 1449px;
+    align-items: center;
+
+}
+.img-ser{
+
+    height: 650px;
+    width: 600px;
+    margin-left: 80px;
+    margin-right: 20px;
+    background-image: url(/architrcture/black\ house.jpg);
+    background-size: cover;
+    box-shadow: rgb(133, 133, 133) 0px 0px 10px;
+    
+}
+
+.box4{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.ser-1,.ser-2,.ser-3,.ser-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253, 252, 250);
+    height: 300px;
+    width: 300px;
+    margin: 20px 20px;
+    position: relative;
+    text-align: center;
+    box-shadow: gray 0px 0px 10px;
+    
+}
+
+img{
+    background-color: white;
+    margin-top: 20px;
+    
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: auto;
+    background-color: #c8e3fd;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.card-1,.card-2,.card-3{
+    margin: 50px 20px;
+    width: 350px;
+    height: 500px;
+    background-color: tomato;
+    overflow: hidden;
+    filter: none;
+    box-shadow: black 2px 2px 10px;
+
+}
+
+.card-1{
+    background-image: url(/architrcture/grills1-min.jpg);
+    background-size: cover;
+}
+
+.card-2{
+    background-image: url(/architrcture/grills2-min.jpg);
+    background-size: cover;
+}
+.card-3{
+    background-image: url(/architrcture/grills3-min.jpg);
+    background-size: cover;
+}
+
+.head{
+    color: black;
+    background-color: white;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 26px;
+    padding: 30px 30px;
+    margin-top: 350px;
+
+}
+
+#contact{
+    height: 750px;
+    width: auto;
+    background-color: #98d4eb;
+    background-image: url(/architrcture/low-angle-greyscale-shot-airplane-flying-high-rise-buildings-min.jpg);
+    background-size: cover;
+    margin-top: -40px;
+    
+}
+
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+    margin-top: 70px;
+    
+    
+}
+
+
+
+
+
+fieldset{
+    padding: 50px 100px;
+}
+
+form{
+    color: white;
+    margin-left: 40px;
+}
+input{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    font-size: larger;
+    
+    
+}
+input:hover{
+    box-shadow: black 0px 0px 10px;
+
+
+}
+label{
+    font-size: larger;
+}
+input::placeholder{
+    color: white;
+    text-shadow: black 1px 1px 2px;
+    font-size: 14px;
+}
+textarea{
+    width: 603px;
+    border: white 2px solid;
+    background-color: transparent;
+    margin: 20px 112px;
+    resize: none;
+    color: white;
+    font-size: larger;
+    
+
+}
+textarea:hover{
+    box-shadow: black 0px 0px 10px;
+    
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    margin-top: 70px;
+    
+}
+
+.team-text{
+    display: flex;
+    text-align: justify;
+    height: 400px;
+    width: 600px;
+    margin-left: 120px;
+    position: relative;
+    padding: 30px 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    float: left;
+   
+
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #98d4eb;
+    position: absolute;
+    z-index: 0;
+    margin-left: 518px;
+    margin-bottom: 200px;
+    box-shadow: rgb(82, 80, 80) 0px 0px 15px;
+
+}
+
+
+
+.team-img{
+    background-color: tomato;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: url(/architrcture/team.jpg);
+    background-size: cover;
+    float: right;
+    position:relative;
+    margin-left: 200px;
+    box-shadow: -60px 0px 0px #98d4eb;
+}
+
+.btn{
+    padding: 10px 40px;
+    margin: 10px;
+    color: black;
+    background-color: #98d4eb;
+    border: 2px solid white;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #070707;
+    height: 200px;
+    margin: 70px 0px;
+    padding: 50px 0px;
+   
+}
+
+.footer-text{
+    text-align: left;
+    width: 300px;
+    height: 250px;
+    background-color: #070707;
+    margin: 60px 50px;
+    padding: 00px 20px;
+
+}
+
+.footer-text h3{
+    font-size: 26px;
+    font-weight: lighter;
+}
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 80px;
+    background-color: rgb(53, 53, 53);
+    position: relative;
+    margin-top: -120px;
+}
