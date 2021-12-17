@@ -65,7 +65,7 @@ li a:hover{
 }
 
 .img1{
-    background-image: url(/architrcture/modern-architecture-min.jpg);
+    background-image: url(modern-architecture-min.jpg);
     background-size: cover;
     height: 450px;
     width: 650px;
@@ -103,7 +103,7 @@ li a:hover{
     background-color: black;
     height: 400px;
     width: 400px;
-    background-image: url(/architrcture/grills.jpg);
+    background-image: url(grills.jpg);
     background-size: cover;
     margin: -413px 584px 0px 584px ;
     z-index: 1;
@@ -135,7 +135,7 @@ li a:hover{
     background-color: black;
     position: relative;
     margin: 285px 500px;
-    background-image: url(/architrcture/black-mall.webp);
+    background-image: url(black-mall.webp);
     background-size: cover;
 }
 .mid {
@@ -153,7 +153,7 @@ li a:hover{
 #mini-img1{
     height: 300px;
     width: 300px;
-    background-image: url(/architrcture/black-skyscrapper.jpg);
+    background-image: url(black-skyscrapper.jpg);
     background-size: cover;
     display: flex;
     /* margin: 30px 108px; */
@@ -168,7 +168,7 @@ li a:hover{
 #mini-img2{
     height: 300px;
     width: 300px;
-    background-image: url(/architrcture/black-elevator.webp);
+    background-image: url(black-elevator.webp);
     background-size: cover;
     display: flex;
     /* margin: 30px 94px; */
@@ -181,7 +181,7 @@ li a:hover{
 .mini-img3{
     height: 300px;
     width: 300px;
-    background-image: url(/architrcture/black-\ stairs.jpg);
+    background-image: url(black-\ stairs.jpg);
     background-size: cover;
     display: flex;
     margin: -51px 150px;
@@ -253,7 +253,7 @@ li a:hover{
     width: 600px;
     margin-left: 80px;
     margin-right: 20px;
-    background-image: url(/architrcture/black\ house.jpg);
+    background-image: url(black\ house.jpg);
     background-size: cover;
     box-shadow: rgb(133, 133, 133) 0px 0px 10px;
     
@@ -311,16 +311,16 @@ img{
 }
 
 .card-1{
-    background-image: url(/architrcture/grills1-min.jpg);
+    background-image: url(grills1-min.jpg);
     background-size: cover;
 }
 
 .card-2{
-    background-image: url(/architrcture/grills2-min.jpg);
+    background-image: url(grills2-min.jpg);
     background-size: cover;
 }
 .card-3{
-    background-image: url(/architrcture/grills3-min.jpg);
+    background-image: url(grills3-min.jpg);
     background-size: cover;
 }
 
@@ -339,7 +339,7 @@ img{
     height: 750px;
     width: auto;
     background-color: #98d4eb;
-    background-image: url(/architrcture/low-angle-greyscale-shot-airplane-flying-high-rise-buildings-min.jpg);
+    background-image: url(low-angle-greyscale-shot-airplane-flying-high-rise-buildings-min.jpg);
     background-size: cover;
     margin-top: -40px;
     
@@ -452,7 +452,7 @@ textarea:hover{
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    background-image: url(/architrcture/team.jpg);
+    background-image: url(team.jpg);
     background-size: cover;
     float: right;
     position:relative;
