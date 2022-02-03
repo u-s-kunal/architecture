@@ -311,16 +311,16 @@ img{
 }
 
 .card-1{
-    background-image: url(/grills1-min.jpg);
+    background-image: url(grills1-min.jpg);
     background-size: cover;
 }
 
 .card-2{
-    background-image: url(/grills2-min.jpg);
+    background-image: url(grills2-min.jpg);
     background-size: cover;
 }
 .card-3{
-    background-image: url(/grills3-min.jpg);
+    background-image: url(grills3-min.jpg);
     background-size: cover;
 }
 
@@ -355,10 +355,6 @@ img{
     
     
 }
-
-
-
-
 
 fieldset{
     padding: 50px 100px;
