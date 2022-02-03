@@ -448,7 +448,7 @@ textarea:hover{
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    background-image: url(/team.jpg);
+    background-image: url(team.jpg);
     background-size: cover;
     float: right;
     position:relative;
