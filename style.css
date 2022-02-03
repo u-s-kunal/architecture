@@ -311,16 +311,16 @@ img{
 }
 
 .card-1{
-    background-image: url(grills1-min.jpg);
+    background-image: url(/grills1-min.jpg);
     background-size: cover;
 }
 
 .card-2{
-    background-image: url(grills2-min.jpg);
+    background-image: url(/grills2-min.jpg);
     background-size: cover;
 }
 .card-3{
-    background-image: url(grills3-min.jpg);
+    background-image: url(/grills3-min.jpg);
     background-size: cover;
 }
 
@@ -452,7 +452,7 @@ textarea:hover{
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    background-image: url(team.jpg);
+    background-image: url(/team.jpg);
     background-size: cover;
     float: right;
     position:relative;
